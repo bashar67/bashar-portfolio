@@ -49,11 +49,11 @@
 @keyframes glowPulse {
   0%,
   100% {
-    box-shadow: 0 10px 40px rgba(138, 43, 226, 0.4), 0 0 0 0 #fff;
-    border-color: #fff;
+    drop-shadow: 0 10px 40px rgba(138, 43, 226, 0.4), 0 0 0 0 #fff;
+   
   }
   50% {
-    box-shadow: 0 10px 60px rgba(138, 43, 226, 0.7), 0 0 24px 8px #181624;
-    border-color: #181624;
+    drop-shadow: 0 10px 60px rgba(138, 43, 226, 0.7), 0 0 24px 8px #181624;
+    
   }
 }
