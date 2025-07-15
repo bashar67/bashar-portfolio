@@ -1,0 +1,59 @@
+.homePage {
+  background-image: linear-gradient(
+    135deg,
+    hsl(230, 24%, 7%) 0%,
+    hsl(240, 30%, 12%) 100%
+  );
+
+  border-bottom: 2px solid var(--border);
+}
+
+.circlePrimary {
+  position: absolute;
+  top: 8px;
+  right: -32px;
+  width: 32px;
+  height: 32px;
+  background: var(--primary);
+  border-radius: 50%;
+  box-shadow: 0 0 24px var(--primary);
+  z-index: 2;
+}
+.circleAccent {
+  position: absolute;
+  bottom: 24px;
+  left: -24px;
+  width: 24px;
+  height: 24px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 16px var(--accent);
+  z-index: 2;
+}
+
+.floatContainer {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+@keyframes floatUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-24px);
+  }
+}
+.imageGlow {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+@keyframes glowPulse {
+  0%,
+  100% {
+    box-shadow: 0 10px 40px rgba(138, 43, 226, 0.4), 0 0 0 0 #fff;
+    border-color: #fff;
+  }
+  50% {
+    box-shadow: 0 10px 60px rgba(138, 43, 226, 0.7), 0 0 24px 8px #181624;
+    border-color: #181624;
+  }
+}

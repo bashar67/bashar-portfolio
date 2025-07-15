@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: hsl(230, 24%, 7%);
+  --foreground: hsl(210, 40%, 98%);
+
+  --card: hsl(230, 20%, 9%);
+  --card-foreground: hsl(210, 40%, 98%);
+
+  --popover: hsl(230, 20%, 9%);
+  --popover-foreground: hsl(210, 40%, 98%);
+
+  --primary: hsl(260, 100%, 70%);
+  --primary-foreground: hsl(230, 24%, 7%);
+
+  --secondary: hsl(230, 15%, 15%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+
+  --muted: hsl(230, 15%, 15%);
+  --muted-foreground: hsl(215, 20.2%, 65.1%);
+
+  --accent: hsl(260, 100%, 70%);
+  --accent-foreground: hsl(230, 24%, 7%);
+
+  --border: hsl(230, 15%, 20%);
+  --input: hsl(230, 15%, 15%);
+  --ring: hsl(260, 100%, 70%);
+  --skill-bg: hsl(230, 20%, 12%);
+  --card-hover: hsl(230, 15%, 12%);
+
+  --radius: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Swiper customization */
+.projects-swiper .swiper-button-next,
+.projects-swiper .swiper-button-prev {
+  color: var(--primary);
+  background: var(--card);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.projects-swiper .swiper-button-next:hover,
+.projects-swiper .swiper-button-prev:hover {
+  transform: scale(1.1);
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.projects-swiper .swiper-button-next::after,
+.projects-swiper .swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projects-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.projects-swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: var(--muted-foreground);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.projects-swiper .swiper-pagination-bullet-active {
+  background: var(--primary);
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.relative {
+  contain: layout;
 }
