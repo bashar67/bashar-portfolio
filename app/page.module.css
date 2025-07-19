@@ -50,16 +50,11 @@
   0%,
   100% {
     drop-shadow: 0 10px 40px rgba(138, 43, 226, 0.4), 0 0 0 0 #fff;
-<<<<<<< HEAD
   }
   50% {
     drop-shadow: 0 10px 60px rgba(138, 43, 226, 0.7), 0 0 24px 8px #181624;
-=======
-   
   }
   50% {
     drop-shadow: 0 10px 60px rgba(138, 43, 226, 0.7), 0 0 24px 8px #181624;
-    
->>>>>>> 8a9f31cd0ea9e75f3ff8a71850169cff3887b387
   }
 }
