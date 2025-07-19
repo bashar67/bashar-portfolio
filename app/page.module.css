@@ -8,6 +8,14 @@
   border-bottom: 2px solid var(--border);
 }
 
+.homePage a {
+  background-color: var(--card);
+}
+
+.homePage a:hover {
+  background-color: var(--primary);
+}
+
 .circlePrimary {
   position: absolute;
   top: 8px;

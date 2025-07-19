@@ -74,18 +74,16 @@ const SocialLinks = () => {
   return (
     <div className="flex justify-center md:justify-start space-x-4">
       {socialLinks.map((social) => {
-        const Icon = <span className="text-lg">{social.icon}</span>;
-
         return (
           <a
             key={social.name}
             href={social.url}
-            className="w-12 h-12 bg-card hover:opacity-90 rounded-full flex items-center justify-center transition-colors duration-300 hover:scale-110"
+            className="w-12 h-12  !text-[var(--primary))] !bg-[var(--card)]/10)]  hover:opacity-90 rounded-full flex items-center justify-center transition-colors duration-300 hover:scale-110"
             aria-label={social.name}
             target="_blank"
             rel="noopener"
           >
-            <span className="text-xl">{Icon}</span>
+            {social.icon}
           </a>
         );
       })}

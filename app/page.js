@@ -57,9 +57,9 @@ const Home = () => {
                 Specializing in stunning interfaces and dynamic user
                 interactions with a focus on performance and accessibility.
               </p>
-              <div className="h-16">
+            
                 <SocialLinks />
-              </div>
+              
             </div>
 
             <div className="flex justify-center lg:justify-end">

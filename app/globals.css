@@ -97,6 +97,13 @@ body {
   contain: layout;
 }
 
+footer a {
+  background-color: var(--card);
+}
+footer a:hover {
+  background-color: var(--primary);
+}
+
 @media (max-width: 750px) {
   .projects-swiper .swiper-button-prev,
   .projects-swiper .swiper-button-next {
