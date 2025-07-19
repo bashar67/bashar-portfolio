@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "tic-tac-toe",
+    "url": "https://tic-toc-toe-bashar.netlify.app/",
+    "image": "/assets/react-projects/tic-tac-toe.webp",
+    "blur": "/assets/react-projects-blur/tic-tac-toe-blur.webp",
+    "description": "A classic Tic-Tac-Toe game built with React hooks and clean UI transitions."
+  },
+  {
+    "id": 2,
+    "title": "project-mangment",
+    "url": "https://project-mangment-bashar.netlify.app/",
+    "image": "/assets/react-projects/your-project.webp",
+    "blur": "/assets/react-projects-blur/your-project-blur.webp",
+    "description": "Manage tasks and deadlines with a React-based project board and drag-and-drop support."
+  },
+  {
+    "id": 3,
+    "title": "react-quiz",
+    "url": "https://react-quiz-bashar.netlify.app/",
+    "image": "/assets/react-projects/react-quiz.webp",
+    "blur": "/assets/react-projects-blur/react-quiz-blur.webp",
+    "description": "A dynamic quiz app with score tracking, question randomization, and custom feedback."
+  },
+  {
+    "id": 4,
+    "title": "elegant-store",
+    "url": "https://elegant-store-bsahar.netlify.app/",
+    "image": "/assets/react-projects/elegant-context.webp",
+    "blur": "/assets/react-projects-blur/elegant-context-blur.webp",
+    "description": "E-commerce UI with sleek product cards, filtering options, and cart functionality."
+  },
+  {
+    "id": 5,
+    "title": "place-picker",
+    "url": "https://place-picker-bashar.netlify.app/",
+    "image": "/assets/react-projects/place-picker.webp",
+    "blur": "/assets/react-projects-blur/place-picker-blur.webp",
+    "description": "Pick and save locations on a map using React and Leaflet with Geo search."
+  },
+  {
+    "id": 6,
+    "title": "react-animation",
+    "url": "https://react-animation-bashar.netlify.app/challenges",
+    "image": "/assets/react-projects/react-animation.webp",
+    "blur": "/assets/react-projects-blur/react-animation-blur.webp",
+    "description": "A collection of animation challenges built with Framer Motion and React transitions."
+  }
+]

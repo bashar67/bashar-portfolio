@@ -96,3 +96,10 @@ body {
 .relative {
   contain: layout;
 }
+
+@media (max-width: 750px) {
+  .projects-swiper .swiper-button-prev,
+  .projects-swiper .swiper-button-next {
+    display: none !important;
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "mapty",
+    "url": "https://mapty-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/mapty.webp",
+    "blur": "/assets/vanilla-projects-blur/mapty-blur.webp",
+    "description": "Track your running and cycling workouts on a map using Geolocation and Leaflet."
+  },
+  {
+    "id": 2,
+    "title": "bankist",
+    "url": "https://bankist-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/bankist.webp",
+    "blur": "/assets/vanilla-projects-blur/bankist-blur.webp",
+    "description": "A sleek mock banking app for transfers, login, loans, and transaction history."
+  },
+  {
+    "id": 3,
+    "title": "age-calculator-app",
+    "url": "https://bashar-age-calculator-app.netlify.app/",
+    "image": "/assets/vanilla-projects/calck-age.png",
+    "blur": "/assets/vanilla-projects-blur/calck-age-blur.webp",
+    "description": "Enter your birthdate and instantly see your age in years, months, and days."
+  },
+  {
+    "id": 4,
+    "title": "new-year-countdown",
+    "url": "https://new-year-countdown-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/new-yer-count.webp",
+    "blur": "/assets/vanilla-projects-blur/new-yer-count-blur.webp",
+    "description": "Live countdown to New Year's Eve with smooth time updates and elegant styling."
+  },
+  {
+    "id": 5,
+    "title": "speak-number-guess",
+    "url": "https://speak-number-guess-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/guess-num-audio.webp",
+    "blur": "/assets/vanilla-projects-blur/guess-num-audio-blur.webp",
+    "description": "Voice-controlled number guessing game using the SpeechRecognition API."
+  },
+  {
+    "id": 6,
+    "title": "sortable-list",
+    "url": "https://sortable-list-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/sortibal-list.png",
+    "blur": "/assets/vanilla-projects-blur/sortibal-list-blur.webp",
+    "description": "Drag and reorder items interactively using a smooth drag-and-drop interface."
+  },
+  {
+    "id": 7,
+    "title": "lyrics-search",
+    "url": "https://lyrics-search-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/lyrisc-search.webp",
+    "blur": "/assets/vanilla-projects-blur/lyrisc-search-blur.webp",
+    "description": "Search for song lyrics by artist and title through an external lyrics API."
+  },
+  {
+    "id": 8,
+    "title": "relaxer",
+    "url": "https://relaxer-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/relaxing.webp",
+    "blur": "/assets/vanilla-projects-blur/relaxing-blur.webp",
+    "description": "Guided breathing animation to help you relax and slow down stress."
+  },
+  {
+    "id": 9,
+    "title": "breakout-game",
+    "url": "https://breakout-game-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/break-out.png",
+    "blur": "/assets/vanilla-projects-blur/break-out-blur.webp",
+    "description": "Classic brick-breaking game built in pure JS with paddle control and scoring."
+  },
+  {
+    "id": 10,
+    "title": "memory-cards",
+    "url": "https://memory-cards-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/memory-cart.png",
+    "blur": "/assets/vanilla-projects-blur/memory-cart-blur.webp",
+    "description": "Flip cards and match pairs in a clean, animated memory game."
+  },
+  {
+    "id": 11,
+    "title": "speech-text-reader",
+    "url": "https://speech-text-reader-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/text-reder.webp",
+    "blur": "/assets/vanilla-projects-blur/text-reder-blur.webp",
+    "description": "Select voice settings and read text aloud using the SpeechSynthesis API."
+  },
+  {
+    "id": 12,
+    "title": "speed-typer",
+    "url": "https://speed-typer-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/speed-typer.png",
+    "blur": "/assets/vanilla-projects-blur/speed-typer-blur.webp",
+    "description": "Type the given sentence as fast as you can and test your speed."
+  },
+  {
+    "id": 13,
+    "title": "my-blog",
+    "url": "https://my-blog-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/my-blog.png",
+    "blur": "/assets/vanilla-projects-blur/my-blog-blur.webp",
+    "description": "Minimal blog layout with readable articles and light styling."
+  },
+  {
+    "id": 14,
+    "title": "music-plyer",
+    "url": "https://music-plyer-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/audio-player.png",
+    "blur": "/assets/vanilla-projects-blur/audio-player-blur.webp",
+    "description": "Play songs, pause, and switch tracks inside a custom music player UI."
+  },
+  {
+    "id": 15,
+    "title": "expense-tracker",
+    "url": "https://expense-tracker-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/expense-tracker.png",
+    "blur": "/assets/vanilla-projects-blur/expense-tracker-blur.webp",
+    "description": "Track income and expenses visually with a running balance."
+  },
+  {
+    "id": 16,
+    "title": "meal-finder",
+    "url": "https://meal-finder-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/meal-finder.webp",
+    "blur": "/assets/vanilla-projects-blur/meal-finder-blur.webp",
+    "description": "Search meals and get recipe details and ingredients from TheMealDB API."
+  },
+  {
+    "id": 17,
+    "title": "hangman",
+    "url": "https://hangman-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/hang-man.png",
+    "blur": "/assets/vanilla-projects-blur/hang-man-blur.webp",
+    "description": "Guess the hidden word before your chances run out in this hangman classic."
+  },
+  {
+    "id": 18,
+    "title": "modal-menu-slider",
+    "url": "https://modal-menu-slider-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/modal-menu-slider.webp",
+    "blur": "/assets/vanilla-projects-blur/modal-menu-slider-blur.webp",
+    "description": "Show menu items in a sliding modal pop-up with interactive navigation."
+  },
+  {
+    "id": 19,
+    "title": "dom-array-methods",
+    "url": "https://dom-array-methods-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/dom-array.png",
+    "blur": "/assets/vanilla-projects-blur/dom-array-blur.webp",
+    "description": "Demonstration of array methods in real-world use cases displayed in the DOM."
+  },
+  {
+    "id": 20,
+    "title": "exchange-rate-calcualator",
+    "url": "https://exchange-rate-calcualator-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/exchange-rate-calc.png",
+    "blur": "/assets/vanilla-projects-blur/exchange-rate-calc-blur.webp",
+    "description": "Convert currencies using real-time exchange rate data pulled from an API."
+  },
+  {
+    "id": 21,
+    "title": "custom-video-plyer",
+    "url": "https://custom-video-plyer-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/video-player.webp",
+    "blur": "/assets/vanilla-projects-blur/video-player-blur.webp",
+    "description": "Customized video player with intuitive controls for play, pause, volume, and fullscreen."
+  },
+  {
+    "id": 22,
+    "title": "movie-seat-booking",
+    "url": "https://movie-seat-booking-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/book-tickts.png",
+    "blur": "/assets/vanilla-projects-blur/book-tickts-blur.webp",
+    "description": "Select cinema seats visually and see total cost with local storage persistence."
+  },
+  {
+    "id": 23,
+    "title": "form-validator",
+    "url": "https://form-validator-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/validt-form.png",
+    "blur": "/assets/vanilla-projects-blur/validt-form-blur.webp",
+    "description": "User-friendly form validation with real-time feedback and clear error messages."
+  },
+  {
+    "id": 24,
+    "title": "guess-my-number",
+    "url": "https://guess-my-number-bashar.netlify.app/",
+    "image": "/assets/vanilla-projects/geus-number.png",
+    "blur": "/assets/vanilla-projects-blur/geus-number-blur.webp",
+    "description": "Fun number guessing game with scoring, hints, and minimalistic design."
+  }
+]

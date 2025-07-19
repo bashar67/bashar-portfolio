@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import styles from "./page.module.css";
 import ProjectsPage from "@/components/projects";
 import Spinner from "@/components/spinner/spinner";
-import ProjectsSplitView from "./more-projects/page";
+import MainHeader from "@/components/main-header/main-header";
 
 const AboutPage = dynamic(() => import("@/components/about/about"), {
   ssr: false,
@@ -38,6 +38,7 @@ const FooterPage = dynamic(() => import("@/components/footer"), {
 const Home = () => {
   return (
     <>
+      <MainHeader />
       <section
         id="home"
         className={`${styles.homePage} py-20 min-h-screen flex items-center bg-hero-gradient relative overflow-hidden`}
@@ -85,15 +86,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <AboutPage />
+      <AboutPage />
       <SkillsPage />
       <EducationPage />
       <ServicesPage />
       <ProjectsPage />
       <ContactPage />
-      <FooterPage /> */}
-
-      <ProjectsSplitView />
+      <FooterPage />
     </>
   );
 };
