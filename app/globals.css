@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: hsl(230, 24%, 7%);
   --foreground: hsl(210, 40%, 98%);
@@ -22,6 +26,8 @@
   --accent: hsl(260, 100%, 70%);
   --accent-foreground: hsl(230, 24%, 7%);
 
+  --destructive-foreground: hsl(210, 40%, 98%);
+
   --border: hsl(230, 15%, 20%);
   --input: hsl(230, 15%, 15%);
   --ring: hsl(260, 100%, 70%);
@@ -37,13 +43,6 @@
   padding: 2rem;
   text-align: center;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 body {
   background: var(--background);

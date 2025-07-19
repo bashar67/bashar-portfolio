@@ -1,0 +1,62 @@
+[
+  {
+    "id": "skill-1",
+    "name": "HTML",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "color": "text-orange-500"
+  },
+  {
+    "id": "skill-2",
+    "name": "CSS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "color": "text-blue-500"
+  },
+  {
+    "id": "skill-3",
+    "name": "JavaScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "color": "text-yellow-500"
+  },
+  {
+    "id": "skill-4",
+    "name": "React.js",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "color": "text-cyan-500"
+  },
+  {
+    "id": "skill-5",
+    "name": "Git & GitHub",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "color": "text-red-500"
+  },
+  {
+    "id": "skill-6",
+    "name": "Node.js",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "color": "text-green-500"
+  },
+  {
+    "id": "skill-7",
+    "name": "nextJs",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-plain.svg",
+    "color": "text-teal-500"
+  },
+  {
+    "id": "skill-8",
+    "name": "typescript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+    "color": "text-teal-500"
+  },
+  {
+    "id": "skill-9",
+    "name": "Axios",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg",
+    "color": "text-purple-500"
+  },
+  {
+    "id": "skill-10",
+    "name": "Netlify",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
+    "color": "text-blue-400"
+  }
+]

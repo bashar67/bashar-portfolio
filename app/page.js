@@ -1,28 +1,51 @@
 "use client";
-
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import styles from "./page.module.css";
+import ProjectsPage from "@/components/projects";
+import Spinner from "@/components/spinner/spinner";
+import ProjectsSplitView from "./more-projects/page";
 
 const AboutPage = dynamic(() => import("@/components/about/about"), {
   ssr: false,
+  loading: () => <Spinner />,
 });
-
-const SocialLinks = dynamic(() => import("@/components/socialLinks"), {
+const SocialLinks = dynamic(() => import("@/components/ui/social-links"), {
   ssr: false,
+  loading: () => <Spinner />,
+});
+const SkillsPage = dynamic(() => import("@/components/skills/skills"), {
+  ssr: false,
+  loading: () => null,
+});
+const ServicesPage = dynamic(() => import("@/components/services"), {
+  ssr: false,
+  loading: () => null,
+});
+const EducationPage = dynamic(() => import("@/components/education"), {
+  ssr: false,
+  loading: () => null,
+});
+const ContactPage = dynamic(() => import("@/components/contact"), {
+  ssr: false,
+  loading: () => null,
+});
+const FooterPage = dynamic(() => import("@/components/footer"), {
+  ssr: false,
+  loading: () => null,
 });
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <section
         id="home"
-        className={`${styles.homePage} min-h-screen flex items-center bg-hero-gradient relative overflow-hidden`}
+        className={`${styles.homePage} py-20 min-h-screen flex items-center bg-hero-gradient relative overflow-hidden`}
       >
         <div className="container mx-auto px-6 py-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[600px]">
             <div className="space-y-6 animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-7xl lg:text-6xl font-bold leading-tight">
                 Hi, I&apos;m{" "}
                 <span className="text-[var(--primary)]">Bashar</span>
               </h1>
@@ -49,10 +72,9 @@ export default function Home() {
                     className="w-full h-full object-cover"
                     width="384"
                     height="384"
-                    priority
-                    quality={80}
+                    loading="eager"
                     placeholder="blur"
-                    blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
+                    blurDataURL="/assets/images/blur/profile-photo-blure.webp"
                   />
                 </div>
                 <div className={styles.circlePrimary}></div>
@@ -62,7 +84,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <AboutPage />
+
+      {/* <AboutPage />
+      <SkillsPage />
+      <EducationPage />
+      <ServicesPage />
+      <ProjectsPage />
+      <ContactPage />
+      <FooterPage /> */}
+
+      <ProjectsSplitView />
     </>
   );
-}
+};
+export default Home;

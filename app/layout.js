@@ -1,37 +1,46 @@
-import Head from "next/head";
-import "./globals.css";
 import MainHeader from "@/components/main-header/main-header";
+import "./globals.css";
 
 export const metadata = {
-  title: "Bashar | Front-End Developer & UI Specialist",
+  metadataBase: new URL("https://bashar-front-end-developer.netlify.app"),
+  title: "Bashar | Front-end Developer | React & Next.js",
   description:
-    "Discover Bashar's portfolio, where creativity meets code. Specialized in Next.js, API integration, and responsive web design with React Bootstrap and tailwindcss.",
-  keywords:
-    "Front-End Developer, Next.js, React, GitHub API, Responsive Design, React Bootstrap, HTML, CSS, JavaScript, Portfolio, Web Development Egypt",
-  authors: [{ name: "Bashar", url: "https://yourdomain.com" }],
+    "Welcome to Bashar's portfolio — a front-end developer specializing in React and Next.js. Explore high-performance UI designs, smooth user experiences, and technically refined web applications. Whether it's optimizing hydration, mastering SSR, or delivering sleek interactive interfaces, every pixel is crafted with precision.",
+  keywords: [
+    "front-end developer",
+    "react developer",
+    "next.js developer",
+    "UI engineer",
+    "web performance",
+    "hydration fixes",
+    "responsive design",
+    "tailwind CSS",
+    "javascript engineer",
+    "react hooks",
+    "next.js routing",
+    "portfolio website",
+    "SEO optimization",
+    "accessibility",
+    "progressive enhancement",
+    "modern web apps",
+    "fast websites",
+    "Jamstack",
+    "clean architecture",
+    "state management",
+    "reusable components",
+    "animation",
+    "UX polish",
+    "Bashar Frontend Developer",
+  ],
   icons: {
-    icon: [
-      {
-        url: "/assets/images/logo-icon.png",
-        type: "image/png",
-        sizes: "32x32",
-      },
-      {
-        url: "/assets/images/logo-icon.png",
-        type: "image/png",
-        sizes: "16x16",
-      },
-    ],
+    icon: "/assets/images/logo-icon.png",
+    shortcut: "/assets/images/logo-icon.png",
+    apple: "/assets/images/logo-icon.png",
   },
-
-  openGraph: {
-    title: "Bashar | Creative Front-End Developer",
-    description: "Explore Bashar's cutting-edge projects and web applications.",
-    url: "https://www.linkedin.com/in/bashar-yousri-330882234",
-    siteName: "Bashar Dev",
-    locale: "en_US",
-    type: "website",
-  },
+  authors: [
+    { name: "Bashar", url: "https://bashar-front-end-developer.netlify.app/" },
+  ],
+  creator: "Bashar",
 };
 
 export default function RootLayout({ children }) {

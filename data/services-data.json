@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Responsive Web Design",
+    "description": "I build websites that look great and work smoothly on all devices — desktops, tablets, and mobile phones.",
+    "icon": "💻"
+  },
+  {
+    "title": "Interactive UI Development",
+    "description": "Using modern JavaScript and frameworks like React, I develop dynamic and user-friendly interfaces that bring designs to life.",
+    "icon": "⚡"
+  },
+  {
+    "title": "Front-End Performance Optimization",
+    "description": "I improve loading speed, reduce layout shifts, and ensure a smooth user experience across browsers.",
+    "icon": "🚀"
+  },
+  {
+    "title": "API Integration",
+    "description": "I connect front-end applications to back-end APIs to deliver real-time, data-driven experiences.",
+    "icon": "🔗"
+  },
+
+  {
+    "title": "Cross-Browser Compatibility",
+    "description": "I ensure that websites function correctly across all major browsers, providing a consistent user experience.",
+    "icon": "🌐"
+  },
+  {
+    "title": "Accessibility Compliance",
+    "description": "I implement best practices to make websites accessible to users with disabilities, following WCAG guidelines.",
+    "icon": "♿"
+  }
+]

@@ -2,7 +2,10 @@ import classes from "./about.module.css";
 
 const AboutPage = () => {
   return (
-    <section id="about" className="py-24 bg-[var(--background)]">
+    <section
+      id="about"
+      className="py-10 bg-[var(--background)] border-b-2 border-[var(--border)]"
+    >
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h2>
@@ -14,18 +17,18 @@ const AboutPage = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-6">
             <p className="text-[var(--muted-foreground)] leading-relaxed text-lg">
-              I&apos;m a front-end developer with a passion for crafting
-              visually appealing and highly functional user experiences. I enjoy
-              transforming complex problems into simple, elegant, and responsive
-              web interfaces. With a solid foundation in modern web technologies
-              and a sharp eye for design, I build digital experiences that are
-              both beautiful and performance-driven.
+              I’m a front-end developer passionate about building accessible,
+              responsive, and fast websites. With a background in modern
+              JavaScript and a keen eye for design, I focus on delivering
+              user-first digital experiences using tools like React, Next.js,
+              and Tailwind CSS. I’m always exploring new technologies to solve
+              real-world problems and enhance user engagement.
             </p>
 
             <div className="flex justify-center">
               <a
-                href="https://drive.google.com/file/d/1QmIpsezwpOPHmzBgYRYvZG0j5K8PkgGO/view?usp=drivesdk"
-                className={classes.aboutBtn}
+                href="/cv.pdf"
+                className={`${classes.aboutBtn} px-6 py-3 text-base sm:text-lg`}
                 download
               >
                 Download CV <span className={classes.aboutBtnArrow}>↓</span>

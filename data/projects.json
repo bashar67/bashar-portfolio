@@ -5,7 +5,8 @@
     "technologies": ["React, Node.js, MongoDB"],
     "image": "/assets/images/jobify.webp",
     "description": "Full-stack platform with admin dashboard to search and apply for jobs",
-    "demoUrl": "https://github.com/bashar67/Jobify-bashar"
+    "demoUrl": "https://github.com/bashar67/Jobify-bashar",
+    "blurImage": "/assets/images/blur/jobify-blure.webp"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "technologies": ["html, CSS, vanilla JavaScript"],
     "image": "/assets/images/kanban-board.webp",
     "description": "manage tasks with drag-and-drop functionality and real-time updates",
-    "demoUrl": "https://kanpan-board-bashar.netlify.app/"
+    "demoUrl": "https://kanpan-board-bashar.netlify.app/",
+    "blurImage": "/assets/images/blur/kanban-board-blure.webp"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "technologies": ["React, tailwind CSS, react-slick"],
     "image": "/assets/images/yourcar.webp",
     "description": "A modern car dealership website with a sleek design and user-friendly interface",
-    "demoUrl": "https://your-car-bashar.netlify.app/"
+    "demoUrl": "https://your-car-bashar.netlify.app/",
+    "blurImage": "/assets/images/blur/yourcar-blure.webp"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "technologies": ["html, css, js, API"],
     "image": "/assets/images/forkify.webp",
     "description": "you can search for recipes and view details",
-    "demoUrl": "https://forkify-bashar.netlify.app/"
+    "demoUrl": "https://forkify-bashar.netlify.app/",
+    "blurImage": "/assets/images/blur/forkify-blure.webp"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "technologies": ["html, css"],
     "image": "/assets/images/appie.webp",
     "description": "simulate company website to offer their services",
-    "demoUrl": "https://bashar-appie.netlify.app/#"
+    "demoUrl": "https://bashar-appie.netlify.app/#",
+    "blurImage": "/assets/images/blur/appie-blure.webp"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "technologies": ["html, css"],
     "image": "/assets/images/omnifood.webp",
     "description": "A healthy meal delivered to your door, every single day",
-    "demoUrl": "https://omnifood-bashar.netlify.app/"
+    "demoUrl": "https://omnifood-bashar.netlify.app/",
+    "blurImage": "/assets/images/blur/omnifood-blure.webp"
   },
   {
     "id": 7,
@@ -53,6 +59,7 @@
     "technologies": ["nextJs, tailwind CSS, API"],
     "image": "/assets/images/foodies.webp",
     "description": "your way to share your recipes with world",
-    "demoUrl": "https://foodies-bashar.netlify.app/"
+    "demoUrl": "https://foodies-bashar.netlify.app/",
+    "blurImage": "/assets/images/blur/foodies-blure.webp"
   }
 ]
