@@ -27,9 +27,9 @@ const AboutPage = () => {
 
             <div className="flex justify-center">
               <a
-                href="/cv.pdf"
+                href="https://drive.google.com/file/d/1-1MD7gPAzUF8KMroWngZL2g7HghAGl7B/view?usp=sharing"
                 className={`${classes.aboutBtn} px-6 py-3 text-base sm:text-lg`}
-                download
+               target="_blank"
               >
                 Download CV <span className={classes.aboutBtnArrow}>↓</span>
               </a>
