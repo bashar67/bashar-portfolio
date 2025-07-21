@@ -9,7 +9,7 @@
 }
 
 .homePage a {
-  background-color: var(--card);
+  background-color: hsl(215, 20%, 72%);
 }
 
 .homePage a:hover {

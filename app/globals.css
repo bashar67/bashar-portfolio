@@ -11,9 +11,6 @@ html {
   --card: hsl(230, 20%, 9%);
   --card-foreground: hsl(210, 40%, 98%);
 
-  --popover: hsl(230, 20%, 9%);
-  --popover-foreground: hsl(210, 40%, 98%);
-
   --primary: hsl(260, 100%, 70%);
   --primary-foreground: hsl(230, 24%, 7%);
 
@@ -25,8 +22,6 @@ html {
 
   --accent: hsl(260, 100%, 70%);
   --accent-foreground: hsl(230, 24%, 7%);
-
-  --destructive-foreground: hsl(210, 40%, 98%);
 
   --border: hsl(230, 15%, 20%);
   --input: hsl(230, 15%, 15%);
@@ -97,10 +92,11 @@ body {
   contain: layout;
 }
 
-footer a {
-  background-color: var(--card);
+footer a:has(> svg:only-child) {
+
+  background-color: hsl(215, 20%, 72%);
 }
-footer a:hover {
+footer a:has(> svg:only-child):hover {
   background-color: var(--primary);
 }
 
