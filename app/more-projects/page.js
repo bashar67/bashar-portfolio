@@ -1,24 +1,8 @@
 "use client";
 import Link from "next/link";
-import ProjectSlider from "@/components/ui/more-project-card";
+import ProjectSlider from "@/components/ui/more-project-card/more-project-card";
 import vanillaProjects from "@/data/vanilla-projects.json";
 import reactProjects from "@/data/react-projects.json";
-
-//   {
-//     id: 1,
-//     title: "react-dashboard",
-//     url: "https://react-dashboard-bashar.netlify.app/",
-//     image: "/assets/react-dashboard.png",
-//     description: "Interactive dashboard built with React and Chart.js.",
-//   },
-//   {
-//     id: 2,
-//     title: "react-portfolio",
-//     url: "https://react-portfolio-bashar.netlify.app/",
-//     image: "/assets/react-portfolio.png",
-//     description: "Personal portfolio site made with Next.js and Framer Motion.",
-//   },
-// ];
 
 export default function MoreProjectsPage() {
   return (

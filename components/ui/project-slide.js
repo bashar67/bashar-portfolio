@@ -19,52 +19,65 @@ const ProjectSlide = ({ project, index }) => {
       }`}
       style={{ animationDelay: `${index * 100}ms` }}
     >
-      <div className="relative w-full rounded-lg overflow-hidden">
+      <div className="relative aspect-[4/3] w-full">
         {project.image ? (
           <Image
             src={project.image}
             alt={`Screenshot of ${project.title}`}
-            width={700}
-            height={500}
-            priority={index === 0}
-            className="rounded-t-2xl w-full h-auto object-contain"
+            fill
+            className="object-cover rounded-t-2xl"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 700px"
             placeholder="blur"
             blurDataURL={project.blurImage}
-            decoding={"async"}
+            decoding="async"
+            priority={index === 0}
           />
         ) : (
-          <div className="bg-gray-200 w-full h-[300px] flex items-center justify-center">
+          <div className="bg-gray-200 w-full h-full flex items-center justify-center">
             <span className="text-gray-500">No Image</span>
           </div>
         )}
       </div>
 
-      <article className="p-8 flex flex-col justify-between">
-        <div className="text-sm text-[var(--primary)] font-medium mb-3 uppercase tracking-wide">
-          Technologies: {project.technologies.slice(0, 5).join(", ")}
+      <article className="p-4 flex flex-col h-[210px] justify-between sm:h-[180px]">
+        <div className="space-y-1.5">
+          <div className="text-[10px] text-[var(--primary)] font-medium uppercase tracking-wide">
+            Technologies: {project.technologies.slice(0, 5).join(", ")}
+          </div>
+          <h3 className="text-[15px] sm:text-base font-bold text-[var(--foreground)] leading-tight">
+            {project.title}
+          </h3>
+          <p className="text-xs text-[var(--muted-foreground)] line-clamp-3 break-words">
+            {project.description}
+          </p>
         </div>
-        <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">
-          {project.title}
-        </h3>
-        <p className="text-[var(--muted-foreground)] leading-relaxed mb-6 break-words">
-          {project.description}
-        </p>
-        <button
-          onClick={handleClick}
-          aria-label={`Open demo for ${project.title}`}
-          className="group relative overflow-hidden cursor-pointer border-[var(--primary)] text-[var(--primary)] bg-transparent border-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:text-[var(--primary-foreground)] before:absolute before:inset-0 before:bg-[var(--primary)] before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)]"
-        >
-          <span className="relative z-10 flex items-center gap-2">
-            View Demo
-            <span
-              aria-hidden="true"
-              className="inline-block transition-transform duration-300 group-hover:translate-x-1"
-            >
-              →
+
+        <div className="pt-3">
+          <button
+            onClick={handleClick}
+            aria-label={`Open demo for ${project.title}`}
+            className="group relative overflow-hidden cursor-pointer
+    border-[var(--primary)] text-[var(--muted-foreground)] bg-transparent
+    border px-3 py-[6px] rounded-full font-medium text-[10px] sm:text-[13px]
+    w-auto sm:w-full
+    transition-all duration-300
+    hover:text-[var(--primary-foreground)]
+    before:absolute before:inset-0 before:bg-[var(--primary)]
+    before:-translate-x-full before:transition-transform before:duration-300
+    hover:before:translate-x-0
+    shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)]"
+          >
+            <span className="relative  z-10 flex items-center justify-center gap-1">
+              Demo
+              <span
+                aria-hidden="true"
+                className="transition-transform duration-300 group-hover:translate-x-1"
+              >
+                →
+              </span>
             </span>
-          </span>
-        </button>
+          </button>
+        </div>
       </article>
     </div>
   );

@@ -14,7 +14,7 @@ const SocialLinks = dynamic(() => import("@/components/ui/social-links"), {
   ssr: false,
   loading: () => <Spinner />,
 });
-const SkillsPage = dynamic(() => import("@/components/skills/skills"), {
+const SkillsPage = dynamic(() => import("@/components/skills"), {
   ssr: false,
   loading: () => null,
 });
@@ -57,9 +57,8 @@ const Home = () => {
                 Specializing in stunning interfaces and dynamic user
                 interactions with a focus on performance and accessibility.
               </p>
-            
-                <SocialLinks />
-              
+
+              <SocialLinks />
             </div>
 
             <div className="flex justify-center lg:justify-end">
