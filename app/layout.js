@@ -45,6 +45,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          // google-site-verification is used for verifying ownership of the site with Google Search Console
+          name="google-site-verification"
+          content="buhDpVK7hT_ml9Z4m4iwsqv7MBJ7xNkmt-qS-ONGyes"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
